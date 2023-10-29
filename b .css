@@ -1,0 +1,158 @@
+/* تغيير الخط لكافة النصوص في الموقع */
+body {
+font-family: 'Alexandria', sans-serif;
+font-family: 'Almarai', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+/* تغيير لون وصف الصور */
+.image-description p {
+    color: rgba(7, 43, 101, 0.824); /* يمكنك استخدام اللون الذي تفضله هنا */
+}
+
+/* تخصيص الألوان والخطوط */
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color:rgba(8, 65, 116, 0.717);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b426e;
+    color: #008cffd5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #0053bf;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #9b101000;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1c6bc5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 21, 53, 0.429)
+}
+
+h1 {
+    color: #237fff;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+/* تحسين التصميم للأجهزة الصغيرة (الهواتف الذكية) */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* تنسيق الصور والوصف */
+.image-description {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.image-description img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.5s, border-radius 0.5s; /* تعريف التحول (transition) لخاصية التحويل وخاصية border-radius */
+    border-radius: 10px; /* تعيين تدوير منحنى لحواف الصورة */
+}
+
+.image-description p {
+    font-size: 30px;
+}
+
+/* تحديد التأثير عند تمرير المؤشر (hover) على الصورة */
+.image-description:hover img {
+    transform: rotate(15deg); /* تدوير الصورة بزاوية 15 درجة عند تمرير المؤشر عليها */
+    border-radius: 50%; /* جعل حواف الصورة دائرية عند تمرير المؤشر عليها */
+}
+/* جعل الصور منحنية الزوايا */
+.image-description img {
+    max-width: 35%;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.5s, border-radius 0.5s; /* تعريف التحول (transition) لخاصية التحويل وخاصية border-radius */
+    border-radius: 50px; /* تعيين تدوير منحى لحواف الصورة */
+}
+
+/* تحديد التأثير عند تمرير المؤشر (hover) على الصورة */
+.image-description:hover img {
+    transform: rotate(15deg); /* تدوير الصورة بزاوية 15 درجة عند تمرير المؤشر عليها */
+    border-radius: 50%; /* جعل حواف الصورة دائرية عند تمرير المؤشر عليها */
+}
+/* تنسيق الشعار */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden; /* يخفي الزوايا الزائدة */
+    width: 300px; /* حجم الشعار */
+    height: 100px; /* حجم الشعار */
+    margin: 0 auto 5px; /* تباعد بين الشعار والعنوان */
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* يجعل الصورة دائرية أيضًا */
+}
+
+/* تنسيق العلامات والروابط والرموز */
+.contact-info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* لتوسيط العناصر أفقياً */
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* تنسيق الروابط */
+.contact-info a {
+    text-decoration: none; /* لإزالة تأثير التسطير على الروابط */
+    color: #112e51; /* لتحديد لون النص */
+}
+
+
